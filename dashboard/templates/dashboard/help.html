@@ -1,0 +1,41 @@
+<title>Help | TooDoo!!!</title>
+
+{% extends 'dashboard/base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'dashboard/help.css' %}">
+
+<!--INSERT HELP CONTENT HERE-->
+  <img src="{% static "dashboard/images/catt.png" %}" alt="cat" height='250px'>
+<br>
+<div class="helpheader">
+  <p>
+    📎 Do you need help? Do you want to give feedback? 
+  </p>
+  <p>
+    Contact Us.
+  </p>
+  <div class="row">
+    <div class="col-md-10 py-1">
+      <div class="mb-5 flex-center">
+        <a class ="logohelp" href="https://www.facebook.com/" target="_blank">
+          <img src="{% static "dashboard/images/facebook.png" %}" alt="facebook">
+        </a>
+        <a class ="logohelp" href="https://www.linkedin.com/login" target="_blank">
+          <img src="{% static "dashboard/images/linkedin.png" %}" alt="linkedin">
+        </a>
+        <a class ="logohelp" href="https://www.google.com/intl/fil/gmail/about/" target="_blank">
+            <img src="{% static "dashboard/images/gmail.png" %}" alt="gmail">
+        </a>
+        <a class ="logohelp" href="https://telegram.org/" target="_blank">
+            <img src="{% static "dashboard/images/telegram.png" %}" alt="telegram">
+        </a>
+        <a class ="logohelp" href="https://discord.com/" target="_blank">
+            <img src="{% static "dashboard/images/discord.png" %}" alt="discord">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{% endblock content %}

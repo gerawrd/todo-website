@@ -1,0 +1,117 @@
+/*.account-img{
+    height: 300px;
+    width: 300px;
+}
+.media{
+    padding:3%;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.text-secondary{
+    padding:10px;
+    margin-left:20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F455C;
+}
+.account-heading{
+    padding:10px;
+    margin-left:20%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #2F455C;
+}
+.container{
+    padding:10px;
+}
+.mb-4{
+    margin-left: 10%;
+}
+.form-control{
+    margin-left: 10%;
+}
+.requiredfield{
+    margin-left: 10%;
+}
+.form-group{
+    margin-left: 10%;
+    padding: 50px;
+}
+.btn-outline-info{
+    margin-left: 10%;
+}*/
+.jumbo{
+    padding-left: 25%;
+}
+.jumbo img { 
+    height: 250px;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+.account-heading{
+    margin-left: 19%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #D8EFD3;
+}
+.text-secondary{
+    margin-left: 23%;
+    color: #D8EFD3 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mb-4{
+   color: #D8EFD3;
+   font-weight: bold;
+   font-size: 30px;
+   margin-top: 40px;
+}
+.form-control{
+  border: 1px solid black !important;
+  display: flex;
+  font-size: 20spx;
+  font-weight: bold;
+  color: #2F455C;
+  border-radius: 20px;
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+  margin-bottom: 10px;
+  width: 500px;
+  height: 40px;
+  text-align: center;
+  margin-left: 400px;
+}
+.requiredfield{
+   color: #D8EFD3;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.text-muted{
+    color: #2F455C !important;
+    font-weight: bold;
+}
+.form-group{
+    text-align: center ;
+    font-size: 15px;
+    color: #2F455C !important;
+    font-weight: bold;
+}
+.btn-outline-info{
+  font-size: 20px;
+  font-weight: bold;
+  color: #D8EFD3;
+  border-radius: 5px;
+  background-color: #2F455C;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+

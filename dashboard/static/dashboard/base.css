@@ -1,0 +1,101 @@
+/*STYLESHEET PARA SA BASE.HTML (NAV BAR)*/
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: rgb(29,205,254);
+            background: linear-gradient(0deg, 
+                      rgba(29,205,254,1) 0%, 
+                      rgba(52,245,197,1) 100%);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            font-weight: bold;
+          }
+          
+          .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2F455C;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidebar a:hover {
+            color: #D8EFD3;
+          }
+          
+          .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+          
+          .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            color: #EFFAEC;
+            font-weight: bold;
+          }
+          
+          .openbtn:hover {
+            background-color: transparent;
+          }
+          
+          #main {
+            transition: margin-left .5s;
+            padding: 16px;
+            background: rgb(21,139,119);
+            background: radial-gradient(circle,
+             rgba(21,139,119,1) 0%, 
+             rgba(47,69,92,1) 100%);
+          }
+          .baselogo{
+            padding: 50px;
+          }
+      .userpic{
+        padding-top: 5px;
+        padding-right: 5px;
+        display: block;
+        float: right;
+      }
+   html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.footer-copyright{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2F455C;
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+}
+.page-footer{
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+}
+#puter{
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+}
+.py-3{
+  color: #2F455C;
+}

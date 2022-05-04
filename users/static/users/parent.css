@@ -1,0 +1,67 @@
+.main {
+  transition: margin-left .5s;
+  padding-bottom: 600px;
+  padding-top: 5%;
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+}
+.form-control{
+  border: 1px solid black !important;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2F455C;
+  border-radius: 20px;
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+  margin-bottom: 10px;
+}
+.requiredfield{
+  font-size: 18px;
+  font-weight: bold;
+  color: #2F455C;
+  text-indent: 5px;
+}
+.mb-4{
+  font-size: 40px;
+  font-weight: bold;
+  color: #2F455C;
+}
+.text-muted{
+  font-size: 12px;
+  font-weight: bold;
+  color: #2F455C;
+  text-indent: 5px;
+}
+.btn-outline-info{
+  font-size: 20px;
+  font-weight: bold;
+  color: #D8EFD3;
+  border-radius: 5px;
+  background-color: #2F455C;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-left: 100px;
+}
+.logo{
+  display: block;
+  margin: auto;
+  padding-top: 20%;
+  padding-left: 2%;
+}
+.column{
+  display: block;
+  width: 50%;
+}
+.register-container {
+padding-top: 5%;
+display: block;
+padding-left: 30%;
+padding-right: 30%;
+}

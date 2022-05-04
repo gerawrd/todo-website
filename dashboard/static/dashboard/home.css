@@ -1,0 +1,62 @@
+
+.homeheader{
+    font-size: 40px;
+    font-weight: bold;
+    color: #EFFAEC;
+    text-indent: 5%;
+}
+#carouselhome{
+    height: 40%;
+}
+.carousel-inner{
+    height: 100%;
+    opacity: 100%; 
+}
+.homedeschead{
+    font-size: 40px;
+    font-weight: bold;
+    color: #EFFAEC;
+    text-indent: 3%;
+}
+.homedescription{
+    font-size: 30px;
+    font-weight: bold;
+    color: #EFFAEC;
+    text-indent: 5%;
+}
+.logohome{
+    height: 720px;
+    max-width: 1280px;
+  }
+  .modal-content{
+    background-color: rgb(0, 225, 255);
+    display: flex;
+}
+.modal-body{
+    display: flex;
+}
+.buttons {
+    margin-left: 300;
+    margin-right: 200;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #D8EFD3;
+    display: block;
+    font-family: 'Times New Roman', serif;
+  }
+  /*.kalendaryo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #D8EFD3;
+    border-radius: 5px;
+    background-color: #2F455C;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    margin-left: 100px;
+  }*/
+  
+

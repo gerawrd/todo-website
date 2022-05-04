@@ -1,0 +1,468 @@
+<title>Tips | TooDoo!!!</title>
+
+{% extends 'dashboard/base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'dashboard/tips.css' %}">
+
+<!--INSERT ABOUT CONTENT HERE-->
+<br>
+    <div class="tipsheader">
+        <p>
+        📎 Check this out. 
+        <img src="{% static "dashboard/images/catt.png" %}" alt="cat" height='100px'>
+        </p>
+    </div>
+    <br>
+    <div class="tipsdesc">
+        <p>
+            Task management is the skill that is liked and exercised by the talented and 
+            competent to ensure the success and progress of their dedicated tasks. Managing
+            your tasks effectively is extremely important for goals accomplishment. 
+            <br><br> Here are some tips on how to effectively manage your schedule.
+        </p>
+    </div>
+    <br>
+    <!--pictures for modal-->
+    <div class="row">
+        <div class="column">
+    <a href=#first-tip data-bs-toggle="modal" data-bs-target="#first-tip"><img src="{% static "dashboard/images/tipimg1.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#second-tip data-bs-toggle="modal" data-bs-target="#second-tip"><img src="{% static "dashboard/images/tipimg2.png" %}" alt="tip1" height='300px'></a>
+   </div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#third-tip data-bs-toggle="modal" data-bs-target="#third-tip"><img src="{% static "dashboard/images/tipimg3.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#fourth-tip data-bs-toggle="modal" data-bs-target="#fourth-tip"><img src="{% static "dashboard/images/tipimg4.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#fifth-tip data-bs-toggle="modal" data-bs-target="#fifth-tip"><img src="{% static "dashboard/images/tipimg5.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#sixth-tip data-bs-toggle="modal" data-bs-target="#sixth-tip"><img src="{% static "dashboard/images/tipimg6.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#seventh-tip data-bs-toggle="modal" data-bs-target="#seventh-tip"><img src="{% static "dashboard/images/tipimg7.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#eight-tip data-bs-toggle="modal" data-bs-target="#eight-tip"><img src="{% static "dashboard/images/tipimg8.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#ninth-tip data-bs-toggle="modal" data-bs-target="#ninth-tip"><img src="{% static "dashboard/images/tipimg9.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#tenth-tip data-bs-toggle="modal" data-bs-target="#tenth-tip"><img src="{% static "dashboard/images/tipimg10.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#eleventh-tip data-bs-toggle="modal" data-bs-target="#eleventh-tip"><img src="{% static "dashboard/images/tipimg11.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#twelvth-tip data-bs-toggle="modal" data-bs-target="#twelvth-tip"><img src="{% static "dashboard/images/tipimg12.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#thirteen-tip data-bs-toggle="modal" data-bs-target="#thirteen-tip"><img src="{% static "dashboard/images/tipimg13.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#fourteen-tip data-bs-toggle="modal" data-bs-target="#fourteen-tip"><img src="{% static "dashboard/images/tipimg14.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#fifteen-tip data-bs-toggle="modal" data-bs-target="#fifteen-tip"><img src="{% static "dashboard/images/tipimg15.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#sixteen-tip data-bs-toggle="modal" data-bs-target="#sixteen-tip"><img src="{% static "dashboard/images/tipimg16.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#seventeen-tip data-bs-toggle="modal" data-bs-target="#seventeen-tip"><img src="{% static "dashboard/images/tipimg17.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#eighteen-tip data-bs-toggle="modal" data-bs-target="#eighteen-tip"><img src="{% static "dashboard/images/tipimg18.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href=#nineteen-tip data-bs-toggle="modal" data-bs-target="#nineteen-tip"><img src="{% static "dashboard/images/tipimg19.png" %}" alt="tip1" height='300px'></a>
+</div>
+<div class="column">
+<a href=#twenty-tip data-bs-toggle="modal" data-bs-target="#twenty-tip"><img src="{% static "dashboard/images/tipimg20.png" %}" alt="tip1" height='300px'></a>
+</div>
+</div>
+    
+    <!--MODALS-->
+    <div class="first-tip">
+        <div class="modal fade" id="first-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">BUSY BUT LAZY?</h5>
+            <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/QzX9SG83U8k?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+            </div>
+
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="second-tip">
+    <div class="modal fade" id="second-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">10 TIME MANAGEMENT TIPS</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/iONDebHX9qk?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="third-tip">
+    <div class="modal fade" id="third-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ELON MUSK: TIME MANAGEMENT METHOD</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/fbAYK4KQrso?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="fourth-tip">
+    <div class="modal fade" id="fourth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">HOW TO STOP WASTING TIME</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/xwsLuxlbY2w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="fifth-tip">
+    <div class="modal fade" id="fifth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">TIME MANAGEMENT (ACCORDING TO MACHINES)</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/iDbdXTMnOmE?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="sixth-tip">
+    <div class="modal fade" id="sixth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">MANAGE YOUR SCHEDULE BETTER</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/VUk6LXRZMMk?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="seventh-tip">
+    <div class="modal fade" id="seventh-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">STRESS-FREE PRODUCTIVITY</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/FGRv5bSIgPU?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="eight-tip">
+    <div class="modal fade" id="eight-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">TIPS FROM A COLLEGE SENIOR</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/KqtWkMOsDok?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="ninth-tip">
+    <div class="modal fade" id="ninth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">PRIORITIZE TASKS EFFECTIVELY</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embedczh4rmk75jc?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="tenth-tip">
+    <div class="modal fade" id="tenth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">THE EISENHOWER METHOD</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/J5SXT9r2214?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="eleventh-tip">
+    <div class="modal fade" id="eleventh-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">REASONS WHY YOU WASTE TIME</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/wsNzAuYDgy0?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="twelvth-tip">
+    <div class="modal fade" id="twelvth-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">MANAGE TOO MANY TASKS</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/XfVD5JraeFQ?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="thirteen-tip">
+    <div class="modal fade" id="thirteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">DELILAH TECHNIQUE</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/UYIvUA5Xh8A?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="fourteen-tip">
+    <div class="modal fade" id="fourteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">HOW TO STRUCTURE YOUR DAY</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/4ysyybi4068?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="fifteen-tip">
+    <div class="modal fade" id="fifteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">SUCCESSFUL PEOPLE MANAGE TIME</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/-Qy2vist-XQ?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="sixteen-tip">
+    <div class="modal fade" id="sixteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">PHILOSOPHY OF TIME MANAGEMENT</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/WXBA4eWskrc?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="seventeen-tip">
+    <div class="modal fade" id="seventeen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">MASTER TIME MANAGEMENT</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/fWRF6BJ1OQk?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="eighteen-tip">
+    <div class="modal fade" id="eighteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">STUDYING AFTER PROCRASTINATING</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/NRE8CUjQBLk?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="nineteen-tip">
+    <div class="modal fade" id="nineteen-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">DO IT NOW - DON'T WASTE TIME</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/l6XK7GP4nOw?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="twenty-tip">
+    <div class="modal fade" id="twenty-tip" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">21 DAYS HABIT - TRY IT NOW</h5>
+        <button align-items="right" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe width="800" height="500" allowfullscreen src="https://www.youtube.com/embed/zoz-ch8qtmM?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+</iframe>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+
+<br><br><br><br><br><br>
+{% endblock content %}

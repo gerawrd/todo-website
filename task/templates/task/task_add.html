@@ -1,0 +1,38 @@
+<title>Add Task | TooDoo!!!</title>
+{% extends 'dashboard/base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'task/task_add.css' %}">
+
+{% block content %}
+<!--INSERT ABOUT CONTENT HERE-->
+<form method="POST">
+    {% csrf_token %}
+    <fieldset class="form-group">
+        <legend class="border-bottom mb-4">
+            Task Add
+        </legend>
+        {{ form|crispy }}
+    </fieldset>
+    <div class="form-group">
+        <button class="btn btn-outline-info" type="submit" id="btnShowMsg" onClick="showMessage()">
+            Submit
+        </button>  
+    </div>
+
+</form>
+
+<script type="text/javascript">
+    function showMessage() {
+        if(confirm("TASK ADDED SUCCESSFULLY, PLEASE GO BACK TO MY TOODOO PAGE")) {
+    window.location.protocol = "http://127.0.0.1:8000/task/task_list/"
+
+    
+}
+    }
+</script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+{% endblock content %}
+

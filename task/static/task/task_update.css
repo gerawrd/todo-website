@@ -1,0 +1,29 @@
+.mb-4{
+    color: #D8EFD3;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+ }
+ .form-group{
+    text-align: center ;
+    font-size: 15px;
+    color: #2F455C !important;
+    font-weight: bold;
+}
+.form-control{
+    border: 1px solid black !important;
+    display: flex;
+    font-size: 20spx;
+    font-weight: bold;
+    color: #2F455C;
+    border-radius: 20px;
+    background: rgb(29,205,254);
+    background: linear-gradient(0deg, 
+              rgba(29,205,254,1) 0%, 
+              rgba(52,245,197,1) 100%);
+    margin-bottom: 10px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-left: 400px;
+  }

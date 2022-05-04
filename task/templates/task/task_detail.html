@@ -1,0 +1,33 @@
+<title>My TooDoo | TooDoo!!!</title>
+
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+<!--INSERT ABOUT CONTENT HERE-->
+{% load static %}
+<link rel="stylesheet" href="{% static 'task/task_detail.css' %}">
+
+<p> TITLE: {{ task.title }} </p>
+<br>
+<p> DESCRIPTION: {{ task.description }} </p>
+<br>
+{% if task.complete %}
+    <p class="taskdesc"> STATUS: Task completed. </p>
+{% else %}
+<p class="taskdesc"> STATUS: Task incomplete. </p>
+{% endif %}
+<br>
+<p> DATE CREATED: {{ task.created }} </p>
+<br><br>
+<a class="btn-primary" href="{% url 'task:task-update-view' task.pk %}">
+    Update Task
+</a>
+<a class="btn-primary" href="{% url 'task:task-delete-view' task.pk %}">
+    Delete Task
+</a>
+
+<br><br><br><br><br><br><br><br>
+
+
+{% endblock content %}
+

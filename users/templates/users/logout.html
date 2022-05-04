@@ -1,0 +1,16 @@
+<title>Log Out | TooDoo!!!</title>
+
+{% extends 'users/parent.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'users/logout.css' %}">
+    <h2 class="logout-text"> You have been logged out. </h2>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                <a class="ml-2" href="{% url 'login' %}">Log In Again</a>
+            </small>
+        </div>
+{% endblock content %}
+
+
+

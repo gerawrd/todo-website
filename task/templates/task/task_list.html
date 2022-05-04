@@ -1,0 +1,33 @@
+<title>My TooDoo | TooDoo!!!</title>
+
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+<a class="btn-primary" href="{% url 'task:task-add-view' %}">
+   + Add New Task
+</a>
+<br><br><br>
+
+
+<!--INSERT ABOUT CONTENT HERE-->
+{% load static %}
+<link rel="stylesheet" href="{% static 'task/task_list.css' %}">
+
+
+{% for task in tasks %}
+
+<a href="{% url 'task:task-detail-view' task.pk %}">
+   {{ task }} <br>
+</a>
+
+{% empty %}
+<img src="{% static "dashboard/images/catwords.png" %}" alt="NO TASKS AT THE MOMENT" width="1000px">
+{% endfor %}
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+{% endblock content %}
+
