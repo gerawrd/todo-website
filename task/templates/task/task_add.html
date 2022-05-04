@@ -2,14 +2,13 @@
 {% extends 'dashboard/base.html' %}
 {% load crispy_forms_tags %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'task/task_add.css' %}">
 
 {% block content %}
 <!--INSERT ABOUT CONTENT HERE-->
 <form method="POST">
     {% csrf_token %}
     <fieldset class="form-group">
-        <legend class="border-bottom mb-4">
+        <legend class="border-bottom mb-4 header">
             Task Add
         </legend>
         {{ form|crispy }}
@@ -32,7 +31,7 @@
     }
 </script>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 {% endblock content %}
 
