@@ -48,8 +48,8 @@
     margin-left: 20%;
     margin-bottom: 15px;
 }
-.account-heading{
-    margin-left: 19%;
+h2.account-heading{
+    margin-left: 30%;
     font-size: 30px;
     font-weight: bold;
     color: #D8EFD3;

@@ -27,7 +27,33 @@
     text-align: center;
     margin-left: 400px;
   }
-.form-check-input{
-    text-align: center !important;
-    margin-left: 400px;
-  }
+#id_description.textarea.form-control{
+    padding: 100px;
+    width: 800px;
+    margin-left: 250px;
+}
+#id_complete.checkboxinput.form-check-input{
+  margin-left: 550px;
+  text-align: center;
+}
+label.form-check-label{
+  margin-left: -600px;
+}
+#btnShowMsg.btn.btn-outline-info{
+  font-size: 20px;
+  font-weight: bold;
+  color: #2F455C;
+  border-radius: 5px;
+  background: rgb(29,205,254);
+  background: linear-gradient(0deg, 
+            rgba(29,205,254,1) 0%, 
+            rgba(52,245,197,1) 100%);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+label{
+  color: #D8EFD3;
+}
